@@ -10,7 +10,7 @@
   <body class="content">
     <h1>⚡ Electron Screen Recorder</h1>
 
-    <video></video>
+    <video id="videoElement"></video>
 
     <div>
       <button id="startBtn" class="button is-primary">Start</button>
@@ -18,6 +18,12 @@
     </div>
 
     <hr />
+
+    <div id="notificationContainer" class="modal">
+      <div class="modal-background"></div>
+      <div id="notificationContent" class="modal-content notification-content">Nothing to save...</div>
+      <button id="closeNotificationContainer" class="modal-close is-large" aria-label="close"></button>
+    </div>
 
     <button id="videoSelectBtn" class="button is-text">Choose a Video Source</button>
   </body>

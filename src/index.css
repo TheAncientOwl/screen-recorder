@@ -5,3 +5,11 @@ body {
   padding: 2rem;
   text-align: center;
 }
+
+.notification-content {
+  background-color: orange;
+  display: inline-block;
+  width: 50%;
+  padding: 1em 2em;
+  border-radius: 0.45rem;
+}
